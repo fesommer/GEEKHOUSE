@@ -1,2 +1,2 @@
 # GEEKHOUSE
-PI ecommerce grupo 9
+Projeto Integrado ecommerce grupo 9

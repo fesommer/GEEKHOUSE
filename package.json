@@ -1,0 +1,20 @@
+{
+  "name": "geekhouse",
+  "version": "1.0.0",
+  "description": "Projeto Integrado ecommerce grupo 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fesommer/GEEKHOUSE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fesommer/GEEKHOUSE/issues"
+  },
+  "homepage": "https://github.com/fesommer/GEEKHOUSE#readme"
+}

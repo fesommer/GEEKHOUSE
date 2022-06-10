@@ -1,551 +1,70 @@
-*{
-    padding: 0;
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.bar {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 100px 0px 100px;
+}
+
+#logo {
+    background: none;
+    cursor: none;
+}
+
+.search {
+    width: 350px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu {
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    padding: 5px 0px 0px 0px;
+    font-size: 14px;
+
+}
+
+#user {
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    padding: 5px 0px 0px 0px;
+    font-size: 14px;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -88px;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    background-color: black;
+    border-radius: 15px;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (min-width: 1024px){
-    
-    header {
-        width: 100vw;
-        height: 150px;
-        background-color: #c1c1c1;
-    }
-
-    .header-cart{
-        display: none;
-    }
-
-    .header-lg{
-        text-align: center;
-    }
-    .header-mid{
-        display: none;
-    }
-
-    .logo-header{
-        padding-left: 30px;
-    }
-
-    header section div form label img { 
-        width: 20px;
-    }
-
-    .header-mid {
-        margin-top: 20px;
-        width: 100vw;
-        text-align: center;
-    }
-
-    .header-mid a{
-        text-decoration: none;
-    }
-
-    #barra-pesquisa {
-        width: 350px;
-        height: 25;
-        border: none;
-    }
-
-    .header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .meio{
-        justify-content: space-around;
-        padding-top: 22px;
-    }
-
-    .header-btn{
-        margin-right: 20px;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        border: none;
-        background-color: #4158D0;
-        color: #C850C0;
-        outline: none;
-        cursor: pointer;
-        transition: 0.4s;
-        border-radius: 10px;
-        box-shadow: 5px -5px 0 #000 ;
-    }
-
-    .header-btn:hover{
-        background-color: #C850C0;
-        color: #4158D0;
-        outline: none;
-        box-shadow: -5px -5px 0 #000 ;
-    }
-
-    .header-btn:active{
-        background-color: #000;
-        color: #fff;
-    }
-    .search-box{
-        translate: (-50%,-50%);
-        background: #353b48;
-        height: 20px;
-        border-radius: 40px;
-        padding: 10px;
-        display: flex;
-        align-items: center
-    }
-
-    .search-btn{
-        color: #00a8ff;
-        float: right;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        display: flex;
-        background: #353b48;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .search-txt{
-        border: none;
-        background: none;
-        outline: none;
-        float: left;
-        padding: 0;
-        color: rgba(255, 0, 234, 0.932);
-        font-size: 16px;
-        transition: 0.5s;
-        line-height: 20px;
-        width: 0px;
-    }
-
-    .search-box:hover > .search-txt{
-        width: 240px;
-        padding: 0 6px;
-    }
-
-    .search-img {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: none;
-    }
-
-    .search-box:hover > .search-btn{
-        background: #00a8ff;
-        transition: 0.5s;
-    }
-
-    /* ----------------- Fim do Header -----------------*/
-
-    .main-content {
-        width: 100vw;
-        height: 121px;
-        margin-top: 32px;
-        background-color: #c1c1c1;
-    }
-
-    .main-img{
-        width: 137px;
-        height: 121px;
-    }
-
-    .main-section{
-        display: flex;
-        align-items: center;
-    }
-
-    .main-section h2{
-        margin-left: 15px;
-    }
-
-    .main-div{
-        display: block;
-        top: 50px;
-        width: 636px;
-        height: 287px;
-        margin-top: 150px;
-        margin-left: 360px;
-        background-color: #c1c1c1;
-    }
-
-    .main-p{
-        text-align: center;
-        padding-top: 70px;
-        font-size: 29px;
-        line-height: 35.1px;
-    }
-
-    .main-buy{
-        width: 336px;
-        height: 50px;
-        margin-top: 118px;
-        margin-left: 73%;
-        background-color: #c1c1c1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main-buy a {
-        text-decoration: none;
-    }
-
-}
-
-@media only screen and (min-width: 960px) and (max-width: 1023px) {
-    
-    header {
-        width: 100vw;
-        height: 130px;
-        background-color: #c1c1c1;
-    }
-
-    .header-cart{
-        display: none;
-    }
-
-    .header-lg{
-        text-align: center;
-    }
-
-    .logo-header{
-        padding-left: 30px;
-        width: 50px;
-    }
-
-    header section div form label img {
-        width: 20px;
-    }
-
-    .header-mid {
-        display: none;
-        margin-top: 10px;
-        width: 100vw;
-        text-align: center;
-    }
-
-    .header-mid a{
-        text-decoration: none;
-    }
-
-    #barra-pesquisa {
-        width: 350px;
-        height: 15;
-        border: none;
-    }
-
-    .header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .meio{
-        justify-content: space-around;
-        padding-top: 22px;
-    }
-
-    .header-btn{
-        margin-right: 20px;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        border: none;
-        background-color: #4158D0;
-        color: #C850C0;
-        outline: none;
-        cursor: pointer;
-        transition: 0.4s;
-        border-radius: 10px;
-        box-shadow: 5px -5px 0 #000 ;
-    }
-
-    .header-btn:hover{
-        background-color: #C850C0;
-        color: #4158D0;
-        outline: none;
-        box-shadow: -5px -5px 0 #000 ;
-    }
-
-    .header-btn:active{
-        background-color: #000;
-        color: #fff;
-    }
-    .search-box{
-        translate: (-50%,-50%);
-        background: #353b48;
-        height: 13px;
-        border-radius: 40px;
-        padding: 10px;
-        display: flex;
-        align-items: center
-    }
-
-    .search-btn{
-        color: #00a8ff;
-        float: right;
-        width: 36px;
-        height: 33px;
-        border-radius: 50%;
-        display: flex;
-        background: #353b48;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .search-txt{
-        border: none;
-        background: none;
-        outline: none;
-        float: left;
-        padding: 0;
-        color: rgba(255, 0, 234, 0.932);
-        font-size: 16px;
-        transition: 0.5s;
-        line-height: 20px;
-        width: 0px;
-    }
-
-    .search-box:hover > .search-txt{
-        width: 240px;
-        padding: 0 6px;
-    }
-
-    .search-img {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: none;
-    }
-
-    .search-box:hover > .search-btn{
-        background: #00a8ff;
-        transition: 0.5s;
-    }
-
-    /* ----------------- Fim do Header -----------------*/
-
-    .main-content {
-        width: 100vw;
-        height: 80px;
-        margin-top: 32px;
-        background-color: #c1c1c1;
-    }
-
-    .main-img{
-        width: 90px;
-        height: 78px;
-    }
-
-    .main-section{
-        display: flex;
-        align-items: center;
-    }
-
-    .main-section h2{
-        margin-left: 15px;
-    }
-
-    .main-div{
-        display: block;
-        top: 50px;
-        width: 636px;
-        height: 287px;
-        margin-left: 170px;
-        margin-top: 150px;;
-        background-color: #c1c1c1;
-    }
-
-    .main-p{
-        text-align: center;
-        padding-top: 70px;
-        font-size: 29px;
-        line-height: 35.1px;
-    }
-
-    .main-buy{
-        width: 336px;
-        height: 50px;
-        margin-top: 228px;
-        margin-left: 645px;
-        background-color: #c1c1c1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main-buy a {
-        text-decoration: none;
-    }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 959px) {
-    
-    header {
-        width: 100vw;
-        height: 55px;
-        background-color: #c1c1c1;
-    }
-
-    .header-lg{
-        display: none;
-    }
-
-    .logo-header img{
-        width: 49px;
-        height: 50px;
-    }
-
-    header section div form label img { 
-        width: 20px;
-    }
-
-    .header-mid img {
-        width: 29px;
-    }
-
-    .header-mid a{
-        text-decoration: none;
-    }
-
-    #barra-pesquisa {
-        width: 350px;
-        height: 15;
-        border: none;
-    }
-
-    .header{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .meio{
-        justify-content: space-around;
-        padding-top: 22px;
-    }
-
-    .header-cart img{
-        width: 29px;
-    }
-
-    .header-btn{
-        display: none;
-    }
-
-    .header-btn:hover{
-        background-color: #C850C0;
-        color: #4158D0;
-        outline: none;
-        box-shadow: -5px -5px 0 #000 ;
-    }
-
-    .header-btn:active{
-        background-color: #000;
-        color: #fff;
-    }
-    .search-box{
-        translate: (-50%,-50%);
-        background: #353b48;
-        height: 13px;
-        width: 138px;
-        border-radius: 40px;
-        padding: 10px;
-        display: flex;
-        align-items: center
-    }
-
-    .search-btn{
-        color: #00a8ff;
-        float: right;
-        width: 21px;
-        height: 28px;
-        border-radius: 50%;
-        display: flex;
-        background: #353b48;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .search-txt{
-        border: none;
-        background: none;
-        outline: none;
-        float: left;
-        padding: 0;
-        color: rgba(255, 0, 234, 0.932);
-        font-size: 10px;
-        transition: 0.5s;
-        line-height: 20px;
-        width: 0px;
-    }
-
-    #barra-pesquisa{
-        width: 117px;
-    }
-
-    .search-box:hover > .search-txt{
-        width: 138px;
-        padding: 0 6px;
-    }
-
-    .search-img {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: none;
-    }
-
-    .search-box:hover > .search-btn{
-        background: #00a8ff;
-        transition: 0.5s;
-    }
-
-    /* ----------------- Fim do Header -----------------*/
-
-    .main-content {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main-img{
-        width: 126px;
-        height: 106px;
-    }
-    .main-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 150px;
-    }
-
-    .main-section h2 {
-        margin-top: 25px;
-    }
-
-    .main-div {
-        margin: 30px;
-        padding: 10px;
-        font-size: 24px;
-        text-align: center;
-        background-color: #c1c1c1;
-    }
-
-    .main-buy{
-        display: inline-block;
-        width: 280px;
-        height: 38px;
-        padding-top: 5px;
-        background-color: #c1c1c1;
-        text-align: center;
-    }
-    
-    .main-a{
-        text-decoration: none;
-        color: #333;
-    }
+    padding: 0;
+    border: none;
 }

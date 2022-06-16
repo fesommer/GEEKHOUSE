@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/pagamento.css">
+    <title>pagamento</title>
+</head>
+
+<body>
+    <main>
+        <div class="info-cad">
+            <div>
+                Nome
+            </div>
+            <div>
+                Endereço
+            </div>
+            <div>
+                Telefone
+            </div>
+            <div>
+                <a href="#">Trocar</a>
+            </div>
+        </div>
+
+        <div class="info-cart">
+            <div>
+                Produtos pedidos:
+            </div>
+            <div>
+                Quantia:
+            </div>
+            <div class="flex-colunm">
+                <div>
+                    Preço unitário:
+                </div>
+                <div>
+                    Total:
+                </div>
+            </div>
+        </div>
+
+        <h3>
+            Selecione a Forma de Pagamento:
+        </h3>
+
+        <h4>
+            Seus Cartões:
+        </h4>
+
+        <form action="" method="post">
+            <div class="cards-flex">
+                <div class="master-flex">
+                    <input type="radio" name="select-cart" id="select-cart">
+                    <label for="select-cart"><img src="../public/img/mastecard.png" alt=""></label>
+                </div>
+                <div class="my-card">
+                    Credito MasterCard final XXXX
+                </div>
+                <div class="cards-flex-colunm">
+                    <div>
+                        Titular do Cartão
+                    </div>
+                    <div>
+                        Info
+                    </div>
+                </div>
+                <div class="cards-flex-colunm">
+                    <div>
+                        Vencimento
+                    </div>
+                    <div>
+                        Info
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="conteiner">
+                <div class="box">
+                    
+                    <h3>
+                        Adicionar Cartão:
+                    </h3>
+
+                    <div class="box-2">
+                        
+                        <div class="add-cards">
+                            <p>Cartões de Credito:</p> <a href="#"> <img src="../public/img/bandeirasdecartões.png" alt=""></a>
+                        </div>
+        
+                        <div class="add-cards range">
+                            <p>Cartões de Debito:</p> <a href="#"><img src="../public/img/bandeirasdecartõescurta.png"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    
+                    <h3>
+                        Outras formas de pagamento:
+                    </h3>
+    
+                    <div class="others">
+                        <div>
+                            <img src="../public/img/Pix.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../public/img/Boleto.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../public/img/MercadoPago.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+            <button class="btn" type="submit">Finalizar Compra</button>
+        </form>
+    </main>
+</body>
+
+</html>

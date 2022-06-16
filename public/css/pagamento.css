@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 425px) {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 100vw;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .info-cad {
+        width: 100vw;
+        height: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #c1c1c1;
+    }
+
+    .my-card{
+        width: 85px;
+    }
+
+    .info-cart {
+        width: 100vw;
+        height: 90px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #c1c1c1;
+    }
+
+    .flex-colunm {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cards-flex {
+        height: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cards-flex-colunm {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60px;
+    }
+
+    .add-cards {
+        width: 100vw;
+        height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-bottom: 10px;
+        background-color: #c1c1c1;
+    }
+
+    .master-flex {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .master-flex label {
+        padding-left: 5px;
+    }
+
+    .others {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    h4 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .info-cad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 61px;
+        background-color: #c1c1c1;
+    }
+
+    .info-cart {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 261px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #c1c1c1;
+    }
+
+    .my-card {
+        width: 130px;
+    }
+
+    .flex-colunm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+    .cards-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .master-flex{
+        display: flex;
+        align-items: center;
+    }
+
+    .master-flex input {
+        margin-left: 15px;
+
+    }
+
+    .master-flex label {
+        padding-left: 5px;
+    }
+
+    .cards-flex-colunm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 180px;
+    }
+
+    .conteiner {
+        display: flex;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        height: 150px;
+    }
+
+    .box h3 {
+        margin: 10px;
+    }
+
+    .add-cards {
+        display: flex;
+    }
+
+    .range {
+        margin-top: 20px;
+    }
+
+    .others {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        width: 353px;
+        height: 60px;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (min-width: 796px) {
+
+    h4 {
+        margin: 10px 0px;
+    }
+    .info-cad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 61px;
+        background-color: #c1c1c1;
+    }
+
+    .info-cart {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 289px;
+        padding-top: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #c1c1c1;
+    }
+
+    .flex-colunm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cards-flex {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .master-flex {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .master-flex label {
+        padding-left: 10px;
+    }
+
+    .cards-flex-colunm {
+        display: flex;
+        width: 165px;
+        margin-right: 20px;
+        justify-content: space-between;
+    }
+
+    .conteiner {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .box h3 {
+        margin: 10px 0px;
+    }
+
+    .add-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-2 {
+        display: flex;
+    }
+
+    .range {
+        margin-left: 60px;
+
+    }
+
+    .others {
+        display: flex;
+    }
+
+    .btn {
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 200px;
+        height: 85px;
+    }
+}

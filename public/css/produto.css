@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-color: #e94d4d;
 }
 
 @media only screen and (max-width: 425px) {
@@ -53,7 +62,9 @@
         justify-content: center;
         align-items: center;
         margin: 10px 3%;
-        background-color: #1417d8;
+        background: #008000;
+        color:  #fff;
+        border-radius: 50px;
     }
     .metade{
         width: 50%;
@@ -77,6 +88,9 @@
 
     .imagem-produto-pequeno p {
         text-align: center;
+        background: #008000;
+        color:  #fff;
+        border-radius: 50px;
     }
 } 
 
@@ -94,7 +108,6 @@
         justify-content: center;
         align-items: center;
         margin: 5%;
-        background-color: aqua;
     }
 
     .imagem-produto {
@@ -110,18 +123,30 @@
 
     .imagem-produto-pequeno p {
         text-align: center;
+        background: #008000;
+        color:  #fff;
+        border-radius: 50px;
     }
 
     section.conteiner-pequeno {
         width: 90%;
         max-width: 1015px;
-        background: bisque;
+        background: #008000;
+        color:  #fff;
+        border-radius: 50px;
         height: 40px;
         text-align: center;
         line-height: 2;
         margin: 10px 5%;
     }
 
+    section.conteiner-pequeno a {
+        color: #fff;
+    }
+
+    section.conteiner-pequeno a:visited {
+        color: #fff;
+    }
 
     section.conteiner-medio {
         width: 90%;
@@ -145,7 +170,6 @@
     }
 
     .conteiner{
-        width: 90%;
         height: 300px;
         width: 90%;
         max-width: 1015px;
@@ -153,7 +177,6 @@
         justify-content: center;
         align-items: center;
         margin: 3%;
-        background-color: blueviolet;
     }
 
     .imagem-produto {
@@ -167,7 +190,6 @@
     }
 
     section.conteiner-pequeno {
-        background: aquamarine;
         margin: 20px 3%;
         width: 90%;
         max-width: 1015px;
@@ -175,6 +197,9 @@
         height: 45px;
         font-size: large;
         line-height: 3;
+        background: #008000;
+        color:  #fff;
+        border-radius: 50px;
     }
 
     section.conteiner-medio {
@@ -204,6 +229,9 @@
 
     .imagem-produto-pequeno p {
         text-align: center;
+        border-radius: 50px;
+        background: #008000;
+        color:  #fff;
     }
 
     #off img{

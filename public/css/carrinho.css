@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 a{
     text-decoration: none;
-    color: brown;
+    background-color: #008000;
+    color: #fff;
+    border-radius: 50px;
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-color: #e94d4d;
+}
+
+button {
+    background-color: #008000;
+    color: #fff;
 }
 
 @media only screen and (max-width: 425px) {

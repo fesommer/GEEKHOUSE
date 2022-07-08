@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-color: #e94d4d;
+}
+
+a{
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 425px) {
@@ -17,6 +31,9 @@
         width: 100vw;
         height: 40px;
         margin-top: 10px;
+        background-color: #008000;
+        color: #fff;
+        border-radius: 50px;
     }
 
     .info-cad {
@@ -26,7 +43,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .my-card{
@@ -40,7 +57,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .flex-colunm {
@@ -73,7 +90,7 @@
         flex-wrap: wrap;
         align-content: center;
         margin-bottom: 10px;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .master-flex {
@@ -108,7 +125,7 @@
         flex-wrap: wrap;
         width: 100vw;
         height: 61px;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .info-cart {
@@ -120,7 +137,7 @@
         height: 261px;
         margin-top: 15px;
         margin-bottom: 15px;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .my-card {
@@ -195,6 +212,9 @@
         height: 60px;
         margin-top: 10%;
         margin-left: 35%;
+        background-color: #008000;
+        color: #fff;
+        border-radius: 50px;
     }
 }
 
@@ -209,7 +229,7 @@
         align-items: center;
         width: 100vw;
         height: 61px;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .info-cart {
@@ -220,7 +240,7 @@
         padding-top: 10px;
         margin-top: 15px;
         margin-bottom: 15px;
-        background-color: #c1c1c1;
+        /* background-color: #c1c1c1; */
     }
 
     .flex-colunm {
@@ -288,5 +308,8 @@
         margin-left: 40%;
         width: 200px;
         height: 85px;
+        background-color: #008000;
+        color: #fff;
+        border-radius: 50px;
     }
 }

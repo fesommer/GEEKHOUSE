@@ -3,7 +3,7 @@ const router = express.Router();
 const telaInicial = require("../controllers/telaInicialController")
 
 
-router.get("/inicio", telaInicial.index);
+router.get("/", telaInicial.index);
 
 
 module.exports = router
